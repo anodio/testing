@@ -1,6 +1,6 @@
 {
   "name": "anodio/testing",
-  "require-dev": {
+  "require": {
     "phpunit/phpunit": "^11.3"
   },
   "autoload": {
