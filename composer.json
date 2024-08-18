@@ -7,5 +7,13 @@
     "psr-4": {
       "Anodio\\Testing\\": "src/"
     }
+  },
+  "extra": {
+    "dev-kit": {
+      "git": {
+        "https": "https://github.com/anodio/testing.git",
+        "ssh": "git@github.com:anodio/testing.git"
+      }
+    }
   }
 }
