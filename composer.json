@@ -1,7 +1,7 @@
 {
   "name": "anodio/testing",
   "require": {
-
+    "pestphp/pest": "^2.35"
   },
   "autoload": {
     "psr-4": {
