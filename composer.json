@@ -1,7 +1,7 @@
 {
   "name": "anodio/testing",
   "require": {
-    "phpunit/phpunit": "^11.3"
+
   },
   "autoload": {
     "psr-4": {
