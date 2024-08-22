@@ -10,7 +10,7 @@ abstract class TestCase extends BaseTestCase
 
     protected function setUp(): void
     {
-        TestHelper::prepareAnod(__DIR__.'/../../../../../');
+        TestHelper::prepareAnod(__DIR__ . '/../../../../PhpstormProjects/');
     }
 
     protected function tearDown(): void
