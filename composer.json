@@ -2,7 +2,8 @@
   "name": "anodio/testing",
   "require": {
     "phpunit/phpunit": "^11.3",
-    "fakerphp/faker": "^1.23"
+    "fakerphp/faker": "^1.23",
+      "mockery/mockery": "^1.6"
   },
   "autoload": {
     "psr-4": {
