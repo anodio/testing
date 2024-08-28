@@ -12,7 +12,7 @@ class TestHelper
         putenv('CONTAINER_NAME=pest');
         $helper = new \Anodio\Core\Helpers\StartHelper();
         $helper->preload($baseDir);
-        $container = \Anodio\Core\ContainerManagement\ContainerManager::createContainer();
+        $container = \Anodio\Core\ContainerManagement\ContainerManager::createContainer(false);
         \Anodio\Core\ContainerStorage::init();
         \Anodio\Core\ContainerStorage::setContainer($container);
     }
