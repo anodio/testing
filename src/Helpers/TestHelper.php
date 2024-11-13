@@ -14,6 +14,11 @@ class TestHelper
         $helper->preload($baseDir);
         $container = \Anodio\Core\ContainerManagement\ContainerManager::createContainer(false);
         \Anodio\Core\ContainerStorage::init();
+        try {
+            \Anodio\Core\ContainerStorage::setMainContainer($container);
+        } catch (\Throwable $e) {
+
+        }
         \Anodio\Core\ContainerStorage::setContainer($container);
     }
 }
